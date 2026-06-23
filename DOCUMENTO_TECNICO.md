@@ -5,8 +5,12 @@
 **Data**: 23/06/2026
 **Percorso**: Fullstack Developer 
 **Link prototipo Figma**: https://www.figma.com/design/rcjLFDwtnQilzUQwybHrhk/WorkSpaceNow?node-id=0-1&t=UsiuEIQ2kQJ2ZNY5-1
-
+**Avvio Frontend**:pnpm dev
+**Avvio backend**:cd backend1 --> mvn spring-boot:run
+**Link DB**:http://localhost:8080/h2-console/login.do?jsessionid=5c139becf781651c9e14c23166a337d2
 ---
+
+![alt text](image-1.png)
 
 ## 1. Contesto e obiettivo
 Qualche settimana fa sono stato contattato dal Capo dell'azienda WorkSpaceNow (MI), che è un azienda che gestisce gli spazi di coworking, e mi ha spiegato la loro necessità di avere un sito moderno, fluido, intuitivo fatto apposta per adattarsi ad ogni tipo di dispositivo.
@@ -67,8 +71,6 @@ La pagina si adatta a:
 6. **Sviluppo JavaScript** in `js/app.js` per intercettare l'invio del form, validare i campi e predisporre la chiamata `fetch` verso il back-end, con gestione della risposta (successo / errore)
 7. **Test responsive** su diverse larghezze via DevTools
 
-> **Nota**: la prova prevedeva anche lo sviluppo di un back-end Spring Boot con persistenza JPA e Swagger. Avevo pianificato di realizzarlo dopo aver completato il front-end, ma il tempo a disposizione non mi ha permesso di arrivare a sviluppare anche quella parte. 
-
 ## 8. Istruzioni per avviare l'applicazione
 
 ### Front-end
@@ -91,3 +93,10 @@ pnpm preview
 
 
 ### 2. DevOps applicato al progetto
+
+Per quanto riguarda DevOps userei GitHub appunto per riuscire a gestire meglio l'intero progetto organizzando meglio il codice e riuscendo a separare tramite le branch le varie categorie di modifiche.
+Ad esempio se in futuro dovessi andare a fare ulteriori modifiche, creerei delle branch apposta (git checkout -b nome-branch) per mantenere "immune" per il momento la branch main, e andando comunque a modificare il codice partendo proprio da quella branch.
+Ogni modifica che andrò a fare sarà seguita da una commit che specifica la modifica eseguita, e quando una branch sarà pronta per la merge alla branch main, allora li farò la pull request per riuscire a "mergiare" il tutto.
+una volta confermata la merge, tornerò nel progetto su vsCode e farò la pull dei cambiamenti che si saranno a quel punto sostati sulla branch principale(main).
+A mio parere la creazione delle branch aiuta soprattutto in lavori dove sul codice lavora piu di una persona, perchè almeno c'è molta meno probabilità che vengano fuori dei conflitti perchè magari sta lavorando più di una persona sullo stesso codice, e cosi facendo le modifiche si sovrastano creando appunto conflitti di codice.
+Inoltre sfrutterei le github actions per migliorare dal punto di vista organizzativo e automatizzare delle parti di codice.

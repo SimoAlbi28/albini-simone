@@ -1,6 +1,6 @@
-// gestione form suggerisci evento -> POST al backend
+const API_URL = "http://localhost:8080/api/prenotazioni";
 
-const API_URL = "http://localhost:8080/api/eventi";
+// TODO: collegamento con db per inviare i dati del form al backend (POST /api/prenotazioni)
 
 const form = document.getElementById("form-evento");
 const feedback = document.getElementById("feedback");
@@ -37,7 +37,7 @@ form.addEventListener("submit", async (event) => {
     // ok
     mostraFeedback(
       "success",
-      "Proposta inviata con successo! Verrà esaminata da un operatore."
+      "Prenotazione inviata con successo! Verrà esaminata da un operatore."
     );
     form.reset();
     form.classList.remove("was-validated");
@@ -51,7 +51,7 @@ form.addEventListener("submit", async (event) => {
   } finally {
     // sempre: riabilito bottone
     submitBtn.disabled = false;
-    submitBtn.textContent = "Invia proposta";
+    submitBtn.textContent = "Prenota";
   }
 });
 
