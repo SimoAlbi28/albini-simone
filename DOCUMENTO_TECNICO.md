@@ -2,14 +2,14 @@
 ## Mini-portale eventi culturali "Trezzano Events"
 
 **Corsista**: Simone Albini
-**Data**: 14/04/2026
+**Data**: 23/06/2026
 **Percorso**: Fullstack Developer 
-**Link prototipo Figma**: https://www.figma.com/design/rcjLFDwtnQilzUQwybHrhk/trezzano-events?node-id=5-174&m=dev&t=ZxrXxBZDQqqbbnD4-1
+**Link prototipo Figma**: 
 
 ---
 
 ## 1. Contesto e obiettivo
-Qualche settimana fa sono stato contattato dal Sindaco del Comune di Trezzano sul Naviglio (MI), che mi ha spiegato una necessità di cui aveva preso nota da tempo in città: i cittadini faticavano a restare aggiornati sugli eventi culturali locali — concerti lungo il Naviglio, mostre fotografiche, laboratori artigianali, performance — sparsi tra volantini cartacei, pagine Facebook e passaparola.
+Qualche settimana fa sono stato contattato dal Capo del Comune di Trezzano sul Naviglio (MI), che mi ha spiegato una necessità di cui aveva preso nota da tempo in città: i cittadini faticavano a restare aggiornati sugli eventi culturali locali — concerti lungo il Naviglio, mostre fotografiche, laboratori artigianali, performance — sparsi tra volantini cartacei, pagine Facebook e passaparola.
 Il Comune voleva un unico punto di riferimento digitale, semplice da consultare anche da telefono, dove chiunque potesse scoprire cosa succede in città e, perché no, proporre anche il proprio evento.
 
 Da questa richiesta è nato **Trezzano Events**, un mini-portale che ho progettato con tre obiettivi chiari:
