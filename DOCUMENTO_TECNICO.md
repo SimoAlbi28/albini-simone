@@ -10,7 +10,7 @@
 **Link DB**:http://localhost:8080/h2-console/login.do?jsessionid=5c139becf781651c9e14c23166a337d2
 ---
 
-![alt text](image-1.png)
+
 
 ## 1. Contesto e obiettivo
 Qualche settimana fa sono stato contattato dal Capo dell'azienda WorkSpaceNow (MI), che è un azienda che gestisce gli spazi di coworking, e mi ha spiegato la loro necessità di avere un sito moderno, fluido, intuitivo fatto apposta per adattarsi ad ogni tipo di dispositivo.
